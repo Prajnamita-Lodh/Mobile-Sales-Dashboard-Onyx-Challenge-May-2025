@@ -68,4 +68,68 @@ Power BI report file with interactive dashboards and visualizations on revenue, 
 - Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
 - Step 4 : It was observed that in none of the columns errors & empty values were present.
 - Step 5 : To clean the data, remove the duplicates from the dataset of "Fact_Sales".
-- Step 6 : Update the header in 3 datasets as per requirement.
+- Step 6 : Update the header in 3 datasets as per requirement and load the dataset into Power BI.
+- Step 7 : To organise the report, at first text box is inseted in the report to write the TITLE of the page. Name the report as **"Mobile Sales Report"**.
+- Step 8 : In the report view, under the insert tab, using image option company's logo was added to the report design area at the left corner. Here is visual outcome:
+![Image](https://github.com/user-attachments/assets/5ed1353e-606f-44af-b976-0c17e9d09b16)
+- Step 9 : In order to navigate the report add the another three "Action" button as *"Revenue"*, *"Sales Insight"*, and *"Customer Insight"* at the right corner. 
+
+ ![Image](https://github.com/user-attachments/assets/4b2cac32-bccd-42f3-994a-fbc99aa0d0f4)
+- Step 10 : Make the duplicate of the page for three times to create the separate Canvas for each part.
+- Step 11 : Visual Slicers were added for three fields for "Country", "Storage Size", & "Months".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Snapshot of Revenue Dashboard
+
+![Image](https://github.com/user-attachments/assets/a502c1ea-0209-48db-a135-1c5516db9b21)
+
+# Snapshot of Sales Insight Dashboard
+
+![Image](https://github.com/user-attachments/assets/8662b37c-329e-4a9e-947e-76c19d3dc7d3)
+
+# Snapshot of Customer Insight Dashboard
+
+![Image](https://github.com/user-attachments/assets/88ac8d9b-5857-41c4-b58c-e3f6ae55d240)
