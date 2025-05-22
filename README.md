@@ -1,6 +1,7 @@
 # Mobile Sales Dashboard Onyx Challenge May 2025
 
-### Interactive Dashboard : https://app.powerbi.com/view?r=eyJrIjoiY2U0NDg4OWYtYTQwOC00NTRiLTg2NzgtYWI1NjAwMWU0YTcxIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9
+### Interactive Dashboard : 
+#### https://app.powerbi.com/view?r=eyJrIjoiY2U0NDg4OWYtYTQwOC00NTRiLTg2NzgtYWI1NjAwMWU0YTcxIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9
 ![Image](https://github.com/user-attachments/assets/bfc1fdb8-bb41-404e-9a9d-4c2a39b3ffc0)
 ## Introduction
 I recently participated in the May 2025 ZoomCharts Mini Challenge, which is part of the global DataDNA Dataset Challenge organized by Onyx Data.
@@ -30,5 +31,41 @@ It provides actionable insights such as:
 
 📅 *January* was the best-performing month, generating $1.41M in revenue—135.48% higher than November, the lowest month.
 
+## Files Included
 
-## Steps followed 
+### Mobile Sales .xlsx: 
+Contains raw transactional data with details on demography, sales report, product details, etc.
+
+### Mobile sales .pbix: 
+Power BI report file with interactive dashboards and visualizations on revenue, osales insight, and customer insight based on the dataset. 
+
+## Data Dictionary:
+- Transaction_ID: Unique transaction ID
+- Transaction_Date: Date the transaction occurred
+- Mobile_Model: Model of the smartphone sold
+- Brand: Smartphone brand
+- Price: Price of the smartphone
+- Units_Sold: Units sold in transaction
+- Total_Revenue: Total revenue (Price * Units Sold)
+- Customer_Age: Customer's age
+- Customer_Age_Group: Age group bucket
+- Customer_Gender: Customer's gender
+- Country: Country of transaction
+- City: City of transaction
+- Latitude: City's latitude
+- Longitude: City's longitude
+- Sales_Channel: Sales channel used
+- Payment_Type: Method of payment
+- End of Month: Month-end date for aggregation
+- Storage_Size: Device storage configuration
+- Color: Color variant of the device
+- Operating_System: Operating system of the phone
+
+### Steps followed 
+
+- Step 1 : Load data into Power BI Desktop, dataset is a .xlsx file.
+- Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
+- Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
+- Step 4 : It was observed that in none of the columns errors & empty values were present.
+- Step 5 : To clean the data, remove the duplicates from the dataset of "Fact_Sales".
+- Step 6 : Update the header in 3 datasets as per requirement.
