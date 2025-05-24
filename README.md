@@ -61,7 +61,7 @@ Power BI report file with interactive dashboards and visualizations on revenue, 
 - Color: Color variant of the device
 - Operating_System: Operating system of the phone
 
-### Steps followed 
+## Steps followed 
 
 - Step 1 : Load data into Power BI Desktop, dataset is a .xlsx file.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
@@ -70,7 +70,7 @@ Power BI report file with interactive dashboards and visualizations on revenue, 
 - Step 5 : To clean the data, remove the duplicates from the dataset of "Fact_Sales".
 - Step 6 : Update the header in 3 datasets as per requirement and load the dataset into Power BI.
 
-#### Page Set up
+### Page Set up
 - Step 7 : To organise the report, at first text box is inseted in the report to write the TITLE of the page. Name the report as **"Mobile Sales Report"**.
 - Step 8 : In the report view, under the insert tab, using image option company's logo was added to the report design area at the left corner. Here is visual outcome:
 ![Image](https://github.com/user-attachments/assets/5ed1353e-606f-44af-b976-0c17e9d09b16)
@@ -80,7 +80,7 @@ Power BI report file with interactive dashboards and visualizations on revenue, 
 - Step 10 : Make the duplicate of the page for three times to create the separate Canvas for each part.
 - Step 11 : Visual Slicers were added for three fields for "Country", "Storage Size", & "Months".
 
-#### Creating Measure Table:
+### Creating Measure Table:
 To develop a dynamic Power BI report on Mobile Sales, I created a dedicated Measure Table to organize and centralize all the key DAX measures at one place.
 for creating new Measures Table Table following DAX expression was written;
        
@@ -223,7 +223,7 @@ for creating new Measures Table Table following DAX expression was written;
           )
       )
 
-#### Revenue Report Page
+### Revenue Report Page
 The Revenue report page was designed to highlight key insights related to revenue performance following mobile sales, including total revenue, revenue trends, and contribution by product category.
 
 - Step 13 : Four card visuals were added to the page to show MoM Revenue Change %, Average Order Value, Top Selling Brand and Top Model Units Sold (Top selling model)
