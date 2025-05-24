@@ -262,6 +262,58 @@ To analyze *Genarated Revenue by Color and Storage Size*, the heat map was added
 ![Image](https://github.com/user-attachments/assets/bd21891a-26db-480d-8073-d20d68dc3da9)
 
 
+#### Sales Insight Report Page
+
+This Sales Insight dashboard provides a clear view of sales performance, showcasing units sold by month, top mobile models, OS-wise pricing trends, and monthly OS unit sales.
+
+- Step 19 : Four card visuals were added to the page to show MoM Revenue Change %, Average Order Value, Top Selling Brand and Top Model Units Sold (Top selling model)
+
+
+- Step 20 :
+
+
+- Step 21 :
+
+
+- Step 22 :
+
+
+- Step 23 :
+
+
+
+#### Customer Insight Report Page
+
+This Customer Insight report highlights essential analytics on total consumers segmented by color and storage size, customer gender-based brand preferences, OS choices by age, revenue by age group, and preferred payment methods.
+
+- Step 24 :
+
+![Image](https://github.com/user-attachments/assets/afea9c07-0fca-4b65-b0f2-b63f2bd9527e)
+
+- Step 25 : Total consumer preference for mobile storage and color was visualized through a heat map, where color was set on the row axis and storage size on the column axis. The peak was noted for 64GB White (25 consumers), with 128GB Blue and 256GB Green both attracting 24 consumers. Black at 128GB followed with 23. 
+
+  *White and Blue colors demonstrated the highest overall consumer preference, while 256GB showed consistent popularity across options.*
+
+![Image](https://github.com/user-attachments/assets/3a5b311a-5781-4c71-abaa-777e491246cb)
+
+- Step 26 : Brand Preference by Customer Gender
+
+![Image](https://github.com/user-attachments/assets/9f735402-ac07-4c8a-a631-463253505294)
+
+- Step 27 : Preferred Operating System by Age Group
+
+![Image](https://github.com/user-attachments/assets/1f75743a-cb77-44eb-a687-5ed0a4de459c)
+
+- Step 28 : Generated Revenue from Different Age Group
+
+![Image](https://github.com/user-attachments/assets/0b8ea2e4-3611-4873-828d-4df275cd84e6)
+
+- Step 23 : Preferred Payment Type by Different Age Group
+
+
+![Image](https://github.com/user-attachments/assets/76b84c75-6d7c-42ab-b317-07e795f0c14d)
+
+
 
 
 
