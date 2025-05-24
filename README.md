@@ -286,7 +286,7 @@ This Sales Insight dashboard provides a clear view of sales performance, showcas
 
 This Customer Insight report highlights essential analytics on total consumers segmented by color and storage size, customer gender-based brand preferences, OS choices by age, revenue by age group, and preferred payment methods.
 
-- Step 24 :
+- Step 24 : Four card visuals were added to the page to show Total consumer, Male consumer, Female consumer and Other consumer.
 
 ![Image](https://github.com/user-attachments/assets/afea9c07-0fca-4b65-b0f2-b63f2bd9527e)
 
@@ -296,20 +296,27 @@ This Customer Insight report highlights essential analytics on total consumers s
 
 ![Image](https://github.com/user-attachments/assets/3a5b311a-5781-4c71-abaa-777e491246cb)
 
-- Step 26 : Brand Preference by Customer Gender
+- Step 26 : A visual comparison of mobile brand preferences between genders was achieved using tornado chart. Brands were used as the group axis, with total unit sales as the metric. Customer gender was selected as the legend to differentiate between male and female buying patterns across various brands.
+
+  *Males showed the highest preference for OnePlus (2,138 units), and the lowest for Google (671). For females, Xiaomi ranked highest (1,768), while OnePlus had the fewest units sold (1,315). OnePlus and Apple were most popular among males; Xiaomi and Samsung were preferred by females.*
 
 ![Image](https://github.com/user-attachments/assets/9f735402-ac07-4c8a-a631-463253505294)
 
-- Step 27 : Preferred Operating System by Age Group
+- Step 27 : To analyze operating system trends by age group, a 100% stacked bar chart was inserted. The X-axis featured customer age groups, and operating system types were visualized using color-coded segments. 
+
+   *A clear preference for iOS was shown among individuals aged 50–57. In contrast, Android emerged as the dominant choice for the 34–41, 42–49, and 58–65 age ranges. Across all groups, Android was chosen more frequently than the average preference line.*
 
 ![Image](https://github.com/user-attachments/assets/1f75743a-cb77-44eb-a687-5ed0a4de459c)
 
-- Step 28 : Generated Revenue from Different Age Group
+- Step 28 : Stacked bar chart was used to visualize revenue distribution across customer age groups. The X-axis displayed age ranges, while total revenue was plotted on the Y-axis.
+ 
+  *The age group 26–33 recorded the highest revenue at $2.4 million followed closely by the 42–49 group with $2.3 million. The least revenue, $1.6 million, was observed from the 50–57 age group.*
 
 ![Image](https://github.com/user-attachments/assets/0b8ea2e4-3611-4873-828d-4df275cd84e6)
 
-- Step 23 : Preferred Payment Type by Different Age Group
+- Step 29 : Payment type preferences by age group were visualized using a 100% stacked bar chart. Age groups were plotted along the X-axis, with payment types as legend and Y-axis categories. 
 
+  *EMI was most preferred by the youngest group, while middle-aged groups leaned toward credit cards. Cash led among 26–33 and 58–65, and UPI showed maximum usage in the 50–57 age segment.*
 
 ![Image](https://github.com/user-attachments/assets/76b84c75-6d7c-42ab-b317-07e795f0c14d)
 
