@@ -2,7 +2,7 @@
 
 ### Interactive Dashboard : 
 #### https://app.powerbi.com/view?r=eyJrIjoiY2U0NDg4OWYtYTQwOC00NTRiLTg2NzgtYWI1NjAwMWU0YTcxIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9
-![Image](https://github.com/user-attachments/assets/bfc1fdb8-bb41-404e-9a9d-4c2a39b3ffc0)
+  ![Image](https://github.com/user-attachments/assets/bfc1fdb8-bb41-404e-9a9d-4c2a39b3ffc0)
 ## Introduction
 I recently participated in the May 2025 ZoomCharts Mini Challenge, which is part of the global DataDNA Dataset Challenge organized by Onyx Data.
 
@@ -73,10 +73,10 @@ Power BI report file with interactive dashboards and visualizations on revenue, 
 ### Page Set up
 - Step 7 : To organise the report, at first text box is inseted in the report to write the TITLE of the page. Name the report as **"Mobile Sales Report"**.
 - Step 8 : In the report view, under the insert tab, using image option company's logo was added to the report design area at the left corner. Here is visual outcome:
-![Image](https://github.com/user-attachments/assets/5ed1353e-606f-44af-b976-0c17e9d09b16)
+    ![Image](https://github.com/user-attachments/assets/5ed1353e-606f-44af-b976-0c17e9d09b16)
 - Step 9 : In order to navigate the report add the another three "Action" button as *"Revenue"*, *"Sales Insight"*, and *"Customer Insight"* at the right corner. 
 
- ![Image](https://github.com/user-attachments/assets/4b2cac32-bccd-42f3-994a-fbc99aa0d0f4)
+    ![Image](https://github.com/user-attachments/assets/4b2cac32-bccd-42f3-994a-fbc99aa0d0f4)
 - Step 10 : Make the duplicate of the page for three times to create the separate Canvas for each part.
 - Step 11 : Visual Slicers were added for three fields for "Country", "Storage Size", & "Months".
 
@@ -228,38 +228,38 @@ The Revenue report page was designed to highlight key insights related to revenu
 
 - Step 13 : Four card visuals were added to the page to show MoM Revenue Change %, Average Order Value, Top Selling Brand and Top Model Units Sold (Top selling model)
 
-![Image](https://github.com/user-attachments/assets/05ce63a3-6104-4651-88d2-2c2f0dcfece0)
+    ![Image](https://github.com/user-attachments/assets/05ce63a3-6104-4651-88d2-2c2f0dcfece0)
 
 - Step 14 : The line chart is implemented to analyze *Total Revenue over Time*, using Transaction Date (by month) on the X-axis and Total Revenue on the Y-axis. To provide the high-level summary, added card visual above the chart to display the *total revenue* amount of *$12.16 million*. Additionally, toggle on data labels through the Format pane to show monthly revenue values directly on the chart.
 
    *While highest revenue genarated in January, November gave the lowest.*
 
-![Image](https://github.com/user-attachments/assets/ebc5f3b7-96e0-4a62-8e66-380b47a0fefe)
+    ![Image](https://github.com/user-attachments/assets/ebc5f3b7-96e0-4a62-8e66-380b47a0fefe)
 
 - Step 15 : *Total Unit sold* insights were communicated using line chart with the transaction date formatted by month on the X-axis and total unit sold on the Y-axis. The total sold unit of 15.39K was shown through the card visual placed above the chart. From the Format panel, the data label option was toggled on to exhibit each month’s sold unit.
        
   *The chart revealed that the highest selling was in January 2024.*
 
-![Image](https://github.com/user-attachments/assets/4c717aa4-58f5-468b-98dd-bafa789ed114)
+    ![Image](https://github.com/user-attachments/assets/4c717aa4-58f5-468b-98dd-bafa789ed114)
 
 - Step 16 : A pie chart was implemented to illustrate *Total Revenue by Sales Channel*. The *Sales Channel* was selected for the category axis and *Total Revenue* for the value metric. This visual made it easy to identify which channels generated the highest revenue share.
 
   *It was observed that the Online channel generated the highest share of revenue.*
 
-![Image](https://github.com/user-attachments/assets/9a606c99-b4fb-4a61-a2d0-b5634b1be22d)
+    ![Image](https://github.com/user-attachments/assets/9a606c99-b4fb-4a61-a2d0-b5634b1be22d)
 
 - Step 17 : *Total Genarated Revenue by Country* was visualized using a ZoomChart Drill Down Combo Bar. Countries were set as the category axis, and total revenue was selected as the series.  This chart enabled interactive exploration through drill-down features, allowing deeper insights into regional revenue performance.
 
   *Among all countries, India was identified as having the highest revenue contribution, while Pakistan recorded the lowest.*
 
-![Image](https://github.com/user-attachments/assets/31a517ec-25df-47cc-ae70-84b47077e877)
+    ![Image](https://github.com/user-attachments/assets/31a517ec-25df-47cc-ae70-84b47077e877)
 
 - Step 18 : 
 To analyze *Genarated Revenue by Color and Storage Size*, the heat map was added with Color on rows and Storage Size on columns, based on the Total Revenue measure. Green with 256GB recorded the highest value at $990.5K, followed closely by White (256GB) at $964.7K and Blue (128GB) at $922K. Notably, White (64GB) also contributed significantly with $938.6K. 
 
   *Overall, White emerged as the top-performing color, and 128GB was the most consistent storage size in terms of revenue.*
   
-![Image](https://github.com/user-attachments/assets/bd21891a-26db-480d-8073-d20d68dc3da9)
+    ![Image](https://github.com/user-attachments/assets/bd21891a-26db-480d-8073-d20d68dc3da9)
 
 
 #### Sales Insight Report Page
@@ -288,37 +288,37 @@ This Customer Insight report highlights essential analytics on total consumers s
 
 - Step 24 : Four card visuals were added to the page to show Total consumer, Male consumer, Female consumer and Other consumer.
 
-![Image](https://github.com/user-attachments/assets/afea9c07-0fca-4b65-b0f2-b63f2bd9527e)
+   ![Image](https://github.com/user-attachments/assets/afea9c07-0fca-4b65-b0f2-b63f2bd9527e)
 
 - Step 25 : Total consumer preference for mobile storage and color was visualized through a heat map, where color was set on the row axis and storage size on the column axis. The peak was noted for 64GB White (25 consumers), with 128GB Blue and 256GB Green both attracting 24 consumers. Black at 128GB followed with 23. 
 
   *White and Blue colors demonstrated the highest overall consumer preference, while 256GB showed consistent popularity across options.*
 
-![Image](https://github.com/user-attachments/assets/3a5b311a-5781-4c71-abaa-777e491246cb)
+   ![Image](https://github.com/user-attachments/assets/3a5b311a-5781-4c71-abaa-777e491246cb)
 
 - Step 26 : A visual comparison of mobile brand preferences between genders was achieved using tornado chart. Brands were used as the group axis, with total unit sales as the metric. Customer gender was selected as the legend to differentiate between male and female buying patterns across various brands.
 
   *Males showed the highest preference for OnePlus (2,138 units), and the lowest for Google (671). For females, Xiaomi ranked highest (1,768), while OnePlus had the fewest units sold (1,315). OnePlus and Apple were most popular among males; Xiaomi and Samsung were preferred by females.*
 
-![Image](https://github.com/user-attachments/assets/9f735402-ac07-4c8a-a631-463253505294)
+    ![Image](https://github.com/user-attachments/assets/9f735402-ac07-4c8a-a631-463253505294)
 
 - Step 27 : To analyze operating system trends by age group, a 100% stacked bar chart was inserted. The X-axis featured customer age groups, and operating system types were visualized using color-coded segments. 
 
    *A clear preference for iOS was shown among individuals aged 50–57. In contrast, Android emerged as the dominant choice for the 34–41, 42–49, and 58–65 age ranges. Across all groups, Android was chosen more frequently than the average preference line.*
 
-![Image](https://github.com/user-attachments/assets/1f75743a-cb77-44eb-a687-5ed0a4de459c)
+   ![Image](https://github.com/user-attachments/assets/1f75743a-cb77-44eb-a687-5ed0a4de459c)
 
 - Step 28 : Stacked bar chart was used to visualize revenue distribution across customer age groups. The X-axis displayed age ranges, while total revenue was plotted on the Y-axis.
  
   *The age group 26–33 recorded the highest revenue at $2.4 million followed closely by the 42–49 group with $2.3 million. The least revenue, $1.6 million, was observed from the 50–57 age group.*
 
-![Image](https://github.com/user-attachments/assets/0b8ea2e4-3611-4873-828d-4df275cd84e6)
+   ![Image](https://github.com/user-attachments/assets/0b8ea2e4-3611-4873-828d-4df275cd84e6)
 
 - Step 29 : Payment type preferences by age group were visualized using a 100% stacked bar chart. Age groups were plotted along the X-axis, with payment types as legend and Y-axis categories. 
 
   *EMI was most preferred by the youngest group, while middle-aged groups leaned toward credit cards. Cash led among 26–33 and 58–65, and UPI showed maximum usage in the 50–57 age segment.*
 
-![Image](https://github.com/user-attachments/assets/76b84c75-6d7c-42ab-b317-07e795f0c14d)
+    ![Image](https://github.com/user-attachments/assets/76b84c75-6d7c-42ab-b317-07e795f0c14d)
 
 
 
