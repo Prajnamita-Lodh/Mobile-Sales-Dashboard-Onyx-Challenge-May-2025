@@ -266,21 +266,33 @@ To analyze *Genarated Revenue by Color and Storage Size*, the heat map was added
 
 This Sales Insight dashboard provides a clear view of sales performance, showcasing units sold by month, top mobile models, OS-wise pricing trends, and monthly OS unit sales.
 
-- Step 19 : Four card visuals were added to the page to show MoM Revenue Change %, Average Order Value, Top Selling Brand and Top Model Units Sold (Top selling model)
+- Step 19 : Four card visuals were added to the page to show top selling city, top selling channel, top payment method, top selling month.
+  ![Image](https://github.com/user-attachments/assets/09a74870-6f08-4391-8f5b-c54a3added9e)
 
+- Step 20 : 5 Top Selling Mobile Model
+A stacked bar chart was inserted to highlight the top five best-selling mobile models. The Y-axis was assigned to model names, and the X-axis was set to total units sold. The Top N filter was enabled for the model field, where “Total Unit Sold” defined the ranking criteria. 
 
-- Step 20 :
+  *According to the total number of units sold, OnePlus 12 Pro was ranked 1st, followed by OnePlus 11R (2nd), OnePlus Nord 4 (3rd), Pixel 9 Pro (4th), and Galaxy S25 Ultra (5th).*
 
+    ![Image](https://github.com/user-attachments/assets/dd10c67a-86ba-4ab6-8d29-971bcbd49da9)
 
-- Step 21 :
+- Step 21 : A stacked bar chart was used to present the top 5 best-selling months. The Y-axis was set to the end-of-month date, while the X-axis displayed the total units sold. A "Top N" filter was applied to the mobile model using the "Total Unit Sold" value to extract the highest-performing months. 
 
+  *January emerged as the top-selling month, followed by August.*
 
-- Step 22 :
+  ![Image](https://github.com/user-attachments/assets/c8bb473a-7cf2-4f87-8542-af2eeeed9043)
 
+- Step 22 : Average price trends for iOS and Android were visualized using the line chart. End-of-month dates were placed on the X-axis and average price on the Y-axis. The operating system was used as a legend category.
+ 
+  *The iOS line peaked in January and dipped to its lowest in June. Android, on the other hand, recorded its highest average price in July and the lowest in May.*
 
-- Step 23 :
+  ![Image](https://github.com/user-attachments/assets/a10daccf-acd7-4969-a6a9-4cf1c9212e09)
 
+- Step 23 : Sales performance by operating system was displayed through a line chart, with end-of-month dates on the X-axis and total unit sales on the Y-axis. The legend represented different operating systems.
 
+   *Sales trends indicated iOS had its highest units sold in May and the lowest in January, while Android showed the highest in January and lowest in November.*
+
+  ![Image](https://github.com/user-attachments/assets/82dfba5e-f3e7-4a1a-b8a3-d7827c3a9618)
 
 #### Customer Insight Report Page
 
@@ -320,48 +332,27 @@ This Customer Insight report highlights essential analytics on total consumers s
 
     ![Image](https://github.com/user-attachments/assets/76b84c75-6d7c-42ab-b317-07e795f0c14d)
 
+- Step 30 : Interactive insights were produced using the "Smart Narrative" feature in Power BI. This functionality was applied to generate auto-explanatory summaries based on the visual data. The insights were dynamically updated in response to filters and slicers, allowing for a more data-driven narrative throughout the report.
+
+## Conclusion
+January recorded the highest revenue and unit sales, while November was the weakest month. Online sales dominated, with India leading in total revenue and Pakistan contributing the least. OnePlus 12 Pro was the top-selling model, and white color with 128GB or 256GB storage were the most preferred configurations. Android was more popular across most age groups, while iOS saw stronger interest among users aged 50–57. Cash was the leading payment mode, especially for the 26–33 and 58–65 age groups. Overall, the 26–33 age group generated the highest revenue.
 
 
+## Improvement Areas & Suggestions
+### Revenue Imbalance Across Months:
+Revenue peaks in January ($1.41M) but drops sharply in November ($600.7K). This inconsistency suggests that sales are overly dependent on seasonal or promotional periods. A more consistent marketing strategy and monthly sales planning can help balance revenue flow.
 
+### Product Over-Dependence:
+OnePlus 12 Pro accounts for 21.65% of total unit sales, making the business highly reliant on a single product. This concentration risk can affect overall performance if demand shifts. Diversifying product offerings and marketing other high-potential models is essential.
 
+### Underperformance of Partner Channel:
+While Online and Retail Store channels contribute significantly, the Partner Channel lags behind at just 11.85% of revenue. This channel has untapped potential. Strengthening partnerships, providing incentives, and better training can improve partner sales performance.
 
+### Cash-Heavy Transactions:
+Cash remains the most used payment method, especially for key age groups (26–33, 34–42). While this shows customer trust in cash, it may limit digital engagement and loyalty tracking. Introducing digital incentives or EMI options can promote secure, trackable transactions.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Inconsistent Sales Volume Across Months:
+While January recorded the highest number of units sold (1,202) and November the lowest (510), the sales volume across months is inconsistent. Only April, May, August, and February maintained above-average unit sales. To improve this, introduce product launches, offers, or bundling strategies to boost engagement during off-peak periods.
 
 # Snapshot of Revenue Page Tab
 
